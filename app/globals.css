@@ -1,13 +1,13 @@
 :root {
-  --paper: #f3efe6;
-  --paper-deep: #e8e2d5;
-  --ink: #20352f;
-  --ink-soft: #41534a;
-  --muted: #767b6e;
-  --line: #d3ccbd;
-  --rust: #a64e38;
-  --moss: #71826b;
-  --ochre: #d8ad67;
+  --paper: #f2f1e9;
+  --paper-deep: #dddccf;
+  --ink: #19243a;
+  --ink-soft: #40516d;
+  --muted: #777b70;
+  --line: #c9cbbb;
+  --rust: #d44b35;
+  --moss: #286c78;
+  --ochre: #d6c93d;
   --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   --sans: "Avenir Next", Avenir, "Segoe UI", sans-serif;
 }
@@ -60,7 +60,7 @@ select:focus-visible {
 }
 
 ::selection {
-  background: #d9b879;
+  background: #d9d46a;
   color: var(--ink);
 }
 
@@ -168,7 +168,7 @@ select:focus-visible {
 }
 
 .button-dark:hover {
-  background: #344d43;
+  background: #303e5c;
 }
 
 .header-cta {
@@ -213,7 +213,7 @@ select:focus-visible {
   flex: 0 0 6px;
   border-radius: 50%;
   background: var(--rust);
-  box-shadow: 0 0 0 3px rgb(166 78 56 / 12%);
+  box-shadow: 0 0 0 3px rgb(212 75 53 / 12%);
 }
 
 .eyebrow-rule {
@@ -279,13 +279,13 @@ select:focus-visible {
   min-height: 390px;
   justify-self: end;
   margin-top: 4px;
-  background: #e8e1d2;
+  background: #dde1d5;
 }
 
 .hero-art-wrap::before {
   position: absolute;
   inset: 14px;
-  border: 1px solid rgb(32 53 47 / 17%);
+  border: 1px solid rgb(25 36 58 / 17%);
   content: "";
 }
 
@@ -339,7 +339,7 @@ select:focus-visible {
 .hero-orbit {
   position: absolute;
   z-index: -1;
-  border: 1px solid rgb(113 130 107 / 35%);
+  border: 1px solid rgb(40 108 120 / 35%);
   border-radius: 50%;
 }
 
@@ -355,7 +355,7 @@ select:focus-visible {
   bottom: -38px;
   width: 78px;
   height: 78px;
-  border-color: rgb(166 78 56 / 42%);
+  border-color: rgb(212 75 53 / 42%);
 }
 
 .hero-index {
@@ -390,26 +390,26 @@ select:focus-visible {
   right: 12px;
   bottom: 10px;
   z-index: 2;
-  color: rgb(32 53 47 / 58%);
+  color: rgb(25 36 58 / 58%);
   font-size: 7px;
   font-weight: 700;
   letter-spacing: .13em;
 }
 
 .artwork-chair {
-  background: #e5dfce;
+  background: #dce0d4;
 }
 
 .artwork-notebook {
-  background: #d9dfd0;
+  background: #cfded8;
 }
 
 .artwork-window {
-  background: #e6d9c3;
+  background: #e4dcc5;
 }
 
 .artwork-custom {
-  background: #d7ddd1;
+  background: #d2dae1;
 }
 
 .ticker {
@@ -421,7 +421,7 @@ select:focus-visible {
   padding: 12px 5vw;
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background: #ece7dc;
+  background: #e7e8dc;
 }
 
 .ticker p {
@@ -512,7 +512,7 @@ select:focus-visible {
 }
 
 .filter-button.is-active {
-  background: #ebe6da;
+  background: #e2e3d5;
 }
 
 .search-field {
@@ -762,7 +762,7 @@ select:focus-visible {
   min-height: 390px;
   padding: 64px 14vw;
   overflow: hidden;
-  background: #e8e3d8;
+  background: #dde2d8;
 }
 
 .approach-mark {
@@ -822,7 +822,7 @@ select:focus-visible {
   justify-content: center;
   gap: 3px;
   justify-self: end;
-  border: 1px solid #aeb19e;
+  border: 1px solid #9da99f;
   border-radius: 50%;
   color: var(--moss);
   text-align: center;
@@ -879,7 +879,7 @@ select:focus-visible {
   justify-content: center;
   padding: 5vh 20px;
   overflow-y: auto;
-  background: rgb(22 34 29 / 62%);
+  background: rgb(25 36 58 / 62%);
   animation: fade-in .18s ease-out;
 }
 
@@ -1086,7 +1086,7 @@ select:focus-visible {
 
 .thanks-panel {
   padding: 20px;
-  background: #e8e3d8;
+  background: #dde2d8;
 }
 
 .thanks-panel > p:last-child {
@@ -1189,7 +1189,7 @@ select:focus-visible {
   width: 16px;
   height: 53px;
   align-items: flex-end;
-  background: #e7e1d4;
+  background: #dde0d3;
 }
 
 .bar-fill {
@@ -1267,7 +1267,7 @@ select:focus-visible {
   padding: 11px 12px;
   border: 1px solid var(--line);
   border-radius: 0;
-  background: #f7f4ed;
+  background: #f6f5ed;
   color: var(--ink);
   font-family: var(--serif);
   font-size: 13px;
@@ -1290,7 +1290,7 @@ select:focus-visible {
 .create-boundary {
   padding: 11px 13px;
   border-left: 2px solid var(--rust);
-  background: #ebe6da;
+  background: #e2e3d5;
   color: var(--ink-soft);
   font-family: var(--serif);
   font-size: 12px;
@@ -1306,8 +1306,8 @@ select:focus-visible {
   z-index: 5;
   margin: 0;
   padding: 9px 6vw;
-  background: #f0dfc0;
-  color: #573d27;
+  background: #eee4a9;
+  color: #604e20;
   font-size: 12px;
 }
 

@@ -26,44 +26,44 @@ function Illustration({ artwork }: { artwork: Artwork }) {
     <div className={`artwork artwork-${artwork}`} aria-hidden="true">
       {artwork === "chair" && (
         <svg viewBox="0 0 360 300" fill="none">
-          <path d="M111 67h133v90H111z" fill="#D9A46F" />
-          <path d="M123 156h109l18 94h-11l-23-73h-77l-20 73h-11z" fill="#81533A" />
-          <path d="M133 174h89" stroke="#E8C8A6" strokeWidth="5" />
-          <path d="M129 82v66m95-66v66" stroke="#C18352" strokeWidth="5" />
-          <path d="m113 199-24 13m143-13 25 12" stroke="#527166" strokeWidth="3" />
-          <circle cx="137" cy="111" r="3" fill="#845638" />
-          <path d="M270 65c14 17 20 33 16 49m-9-27 12 4" stroke="#8E9A72" strokeWidth="3" />
+          <path d="M111 67h133v90H111z" fill="#D6C93D" />
+          <path d="M123 156h109l18 94h-11l-23-73h-77l-20 73h-11z" fill="#286C78" />
+          <path d="M133 174h89" stroke="#AFC5C2" strokeWidth="5" />
+          <path d="M129 82v66m95-66v66" stroke="#D44B35" strokeWidth="5" />
+          <path d="m113 199-24 13m143-13 25 12" stroke="#40516D" strokeWidth="3" />
+          <circle cx="137" cy="111" r="3" fill="#19243A" />
+          <path d="M270 65c14 17 20 33 16 49m-9-27 12 4" stroke="#D44B35" strokeWidth="3" />
         </svg>
       )}
       {artwork === "notebook" && (
         <svg viewBox="0 0 360 300" fill="none">
-          <path d="m94 74 152-20 28 171-154 23z" fill="#A64E38" />
-          <path d="m112 82 126-17 22 149-127 17z" fill="#F2E8D8" />
-          <path d="m134 101 81-11m-77 31 88-12m-84 33 89-12m-85 33 72-10" stroke="#A8A18D" strokeWidth="2" />
-          <path d="m109 83 21 148m-17-147 20 147" stroke="#7C382C" strokeWidth="3" />
-          <path d="M207 197c8-12 15-17 25-18" stroke="#4E746A" strokeWidth="3" />
-          <circle cx="256" cy="96" r="18" fill="#D8AD67" />
+          <path d="m94 74 152-20 28 171-154 23z" fill="#D44B35" />
+          <path d="m112 82 126-17 22 149-127 17z" fill="#F2F1E9" />
+          <path d="m134 101 81-11m-77 31 88-12m-84 33 89-12m-85 33 72-10" stroke="#777B70" strokeWidth="2" />
+          <path d="m109 83 21 148m-17-147 20 147" stroke="#9E3428" strokeWidth="3" />
+          <path d="M207 197c8-12 15-17 25-18" stroke="#286C78" strokeWidth="3" />
+          <circle cx="256" cy="96" r="18" fill="#D6C93D" />
         </svg>
       )}
       {artwork === "window" && (
         <svg viewBox="0 0 360 300" fill="none">
-          <path d="M69 45h222v206H69z" fill="#D6D5BD" />
-          <path d="M88 64h184v168H88z" fill="#E4A767" />
-          <path d="M181 64v168M88 148h184" stroke="#FBF0DA" strokeWidth="8" />
-          <path d="M92 68h85v76H92z" fill="#A8B6A2" />
-          <path d="M186 68h82v76h-82z" fill="#E9C990" />
-          <path d="M92 153h85v75H92z" fill="#E8C58B" />
-          <path d="M186 153h82v75h-82z" fill="#C77C55" />
-          <path d="M64 251h232" stroke="#6D7561" strokeWidth="4" />
-          <path d="M114 51c18-14 40-20 64-20m61 224c16-8 29-20 40-38" stroke="#6E816D" strokeWidth="3" />
+          <path d="M69 45h222v206H69z" fill="#C8D1C5" />
+          <path d="M88 64h184v168H88z" fill="#E0A37B" />
+          <path d="M181 64v168M88 148h184" stroke="#F5F1DD" strokeWidth="8" />
+          <path d="M92 68h85v76H92z" fill="#286C78" />
+          <path d="M186 68h82v76h-82z" fill="#D6C93D" />
+          <path d="M92 153h85v75H92z" fill="#40516D" />
+          <path d="M186 153h82v75h-82z" fill="#D44B35" />
+          <path d="M64 251h232" stroke="#19243A" strokeWidth="4" />
+          <path d="M114 51c18-14 40-20 64-20m61 224c16-8 29-20 40-38" stroke="#286C78" strokeWidth="3" />
         </svg>
       )}
       {artwork === "custom" && (
         <svg viewBox="0 0 360 300" fill="none">
-          <path d="M80 76h200v148H80z" fill="#E6DCC8" />
-          <circle cx="180" cy="148" r="58" fill="#557367" />
-          <path d="M180 96c26 21 39 38 39 53s-13 31-39 51c-26-20-39-36-39-51s13-32 39-53Z" fill="#DDAE72" />
-          <path d="M64 238h232" stroke="#875B43" strokeWidth="3" />
+          <path d="M80 76h200v148H80z" fill="#E6E5DA" />
+          <circle cx="180" cy="148" r="58" fill="#40516D" />
+          <path d="M180 96c26 21 39 38 39 53s-13 31-39 51c-26-20-39-36-39-51s13-32 39-53Z" fill="#D6C93D" />
+          <path d="M64 238h232" stroke="#286C78" strokeWidth="3" />
         </svg>
       )}
       <span className="artwork-index">{artwork === "custom" ? "NEW FIELD NOTE" : "OBSERVATION No."}</span>
